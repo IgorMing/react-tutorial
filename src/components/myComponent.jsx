@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 export default class MyComponent extends Component {
   render() {
@@ -10,4 +10,8 @@ export default class MyComponent extends Component {
       </div>
     );
   }
+}
+
+MyComponent.propTypes = {
+  myMessage: PropTypes.string.isRequired
 }
