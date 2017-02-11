@@ -13,5 +13,5 @@ export default class MyComponent extends Component {
 }
 
 MyComponent.propTypes = {
-  myMessage: PropTypes.string.isRequired
+  myMessage: PropTypes.string.isRequired,
 }

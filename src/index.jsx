@@ -8,7 +8,7 @@ class App extends Component {
     super();
 
     this.state = {
-      msg: 'Igor!!!!!'
+      msg: 'Igor!!!!!',
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -16,7 +16,7 @@ class App extends Component {
 
   handleClick() {
     this.setState({
-      msg: 'Igor Ming de Mesquita! :D'
+      msg: 'Igor Ming de Mesquita! :D',
     });
   }
 
